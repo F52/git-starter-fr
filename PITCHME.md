@@ -33,17 +33,16 @@ Linus Torvald
 
 @title[Historique 2]
 
-* le développement commença le 3 avril 2005,
-* il fut annoncé le 6,
-* est devenu son propre contrôleur le 7,
-* le premier *merge* eut lieu le 18,
-* le 29 Linus atteint ses objectifs de performance (6.7 patches / secondes)
-* le 16 juin, git gère la release du kernel Linux 2.6.12
-* le 26 juillet la maintenance est transferrée à Junio Hamano, qui gère depuis...
-* v1.0 le 21 décembre 2005.
+* le développement commença le **3 avril 2005**,
+* il fut annoncé **le 6**,
+* est devenu son propre contrôleur **le 7**,
+* le premier *merge* eut lieu **le 18**,
+* **le 29** les objectifs de performance sont atteints (6.7 patches / secondes)
+* **le 16 juin**, git gère la release du kernel Linux 2.6.12
+* **le 26 juillet** la maintenance est transferrée à Junio Hamano, qui gère depuis...
+* v1.0 le **21 décembre**.
 
 <small>Source: Wikipedia</small>
-
 <center>![gif](https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif)</center>
 
 ---
