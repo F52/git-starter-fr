@@ -1,9 +1,9 @@
 @title[Débuter avec Git et Git-flow]
 
-## Débuter avec git et git-flow
+## Débuter avec git<br/>et git-flow
 
 ![Logo](assets/img/logo-sm.png)
-Cédric Foellmi – F52 Technologies – cedric@f52.tech – http://f52.tech
+Cédric Foellmi – F52 Technologies<br/>cedric@f52.tech – http://f52.tech
 
 ---
 
