@@ -3,3 +3,12 @@
   box-shadow: none;
   background-color: transparent;
 }
+
+.reveal .slides {
+    text-align: left;
+}
+
+.reveal .slides section>* {
+    margin-left: 0;
+    margin-right: 0;
+}
