@@ -11,10 +11,12 @@ Cédric Foellmi – F52 Technologies<br/>cedric@f52.tech – http://f52.tech
 ## Table des matières
 
 * Les principes de git
-* Les commandes de base pour commencer tout de suite
+* Les commandes de base
 * Le git-flow
+<hr>
 * Les <span class="code">remotes</span> et les plateformes (GitHub...)
 * Collaborer
+<hr>
 * Les dépôts du F52 pour vous exercer !
 * Quelques exemples de clients
 * Un fork sur GitHub
@@ -40,7 +42,7 @@ renoncé à son système de contrôle de version, devenu payant.
 * le développement commença le **3 avril 2005**,
 * il fut annoncé **le 6**,
 * est devenu son propre contrôleur de version **le 7**,
-* le premier *merge* eut lieu **le 18**,
+* le premier `merge` eut lieu **le 18**,
 * **le 29**, les objectifs de performance sont atteints
 * **le 16 juin**, git gère la release du kernel Linux 2.6.12
 * **le 26 juillet**, la maintenance est transferrée à Junio Hamano...
@@ -61,8 +63,8 @@ renoncé à son système de contrôle de version, devenu payant.
 
 Avantages:
 
-* Pas besoin de serveur central, de "single point of failure"
-* Permet de continuer à travailler même sans réseau (dans l'avion...)
+* Pas besoin de serveur central, pas de "single point of failure"
+* Permet de continuer à travailler hors-ligne
 * Cloner un dépôt signifie obtenir l'entierté du projet, historique compris.
 * **(Presque) tout se passe "localement"**
 
@@ -70,10 +72,10 @@ Avantages:
 
 <span class="menu-title" style="display: none">Les principes II</span>
 
-### git fonctionne comme un mini "file system".
+### git fonctionne comme un mini "système de fichiers".
 
-* Ce sont les fichiers eux-mêmes qui sont conservés au moment du `commit`, pas seulement des différences
-* Git fonctionne très bien pour le code, et le texte. Très mal pour tous les binaires (images, PDFs...)
+* Les fichiers eux-mêmes sont conservés au moment du `commit`, pas seulement des différences
+* Git est conçu pour le code, et le texte. Pas pour les binaires (images, PDFs...)
 
 Diff | Git
 --- | ---
@@ -101,7 +103,9 @@ Diff | Git
 
 Logiquement, tout fichier nouveau, renommé, déplacé ou effacé est considéré comme "modifié".
 
-![Image](https://git-scm.com/book/en/v2/images/areas.png)
+---?image=https://git-scm.com/book/en/v2/images/areas.png&size=cover
+
+<span class="menu-title" style="display: none">Les principes IV (image)</span>
 
 ---
 
