@@ -2,7 +2,7 @@
 
 <span class="menu-title" style="display: none;">Débuter avec Git et Git-flow</span>
 
-## Débuter avec git<br/>et git-flow
+## <span style="color: white;"> Débuter avec git<br/>et git-flow</span>
 
 Cédric Foellmi – F52 Technologies<br/>cedric@f52.tech – http://f52.tech
 
@@ -101,9 +101,9 @@ Diff | Git
 * **staged** ou mis à l'index: le fichier est marqué pour partir avec le prochain wagon/commit.
 * **modifié**: le fichier est différent de sa précédente copie.
 
-<span style="font-size: medium">Logiquement, tout fichier nouveau, renommé, déplacé ou effacé est considéré comme "modifié".</span>
+<small>Logiquement, tout fichier nouveau, renommé, déplacé ou effacé est considéré comme "modifié".<small>
 
-<span style="font-size: medium">Sauf s'il est **ignoré**...</span>
+<small>Sauf s'il est **ignoré**...</small>
 
 ---
 <span class="menu-title" style="display: none">Les principes IV (image)</span>
@@ -137,23 +137,29 @@ Diff | Git
 
 ### Un (tout petit) peu de config
 
-Pas obligatoire mais évite des soucis par la suite.
+<small>Pas obligatoire mais évite des soucis par la suite.</small>
 
-* Le fichier `.gitignore` permet de lister tous les fichiers ou "motifs de fichiers" à ignorer.
+* Le fichier **`.gitignore`** permet de lister tous les fichiers ou "motifs de fichiers" à ignorer.
 * @fa[arrow-right] https://www.gitignore.io
 
 * Tapez une fois, les 2 commandes:<br/>
-`git config --global user.name "John Doe"`<br/>
-`git config --global user.email johndoe@example.com`
+**`git config --global user.name "John Doe"`**<br/>
+**`git config --global user.email johndoe@example.com`**
 
 
 ---
 
 <span class="menu-title" style="display: none">Les commandes vraiment de base</span>
 
-### La base de la base: `init`, `add`, `commit`
+### La base de la base:
 
-Aussi: `ignore`, et `status`, et aussi... `rm` et `mv` et `log`
+<center>`git init`, &nbsp; &nbsp; &nbsp; `git add`, &nbsp; &nbsp; &nbsp;  `git commit`</center>
+
+Boum.
+
+Mais aussi: `git ignore`, et `git status`.
+
+<small>Et aussi... `rm`, `mv` et `log` si nécessaire...</small>
 
 ---
 
@@ -186,8 +192,76 @@ Aussi: `ignore`, et `status`, et aussi... `rm` et `mv` et `log`
 
 ### Le git-flow est une "bonne pratique" courante.
 
-Pas une obligation, mais quand autant de monde s'y convertit...
+<small>Pas une obligation, mais quand autant de monde s'y convertit...</small>
 
-Plusieurs versions, plus ou moins complexes, trouvez la votre !
+Plusieurs versions, plus ou moins complexes. A vous de trouvez la votre!
 
-tags
+@fa[arrow-right] https://danielkummer.github.io/git-flow-cheatsheet/
+
+**`git flow init`**
+
+---
+
+<span class="menu-title" style="display: none">git-flow - 1</span>
+
+![Image](./assets/img/git-flow.001.png)
+
+---
+
+<span class="menu-title" style="display: none">git-flow - 2</span>
+
+![Image](./assets/img/git-flow.002.png)
+
+---
+
+<span class="menu-title" style="display: none">git-flow - 3</span>
+
+![Image](./assets/img/git-flow.003.png)
+
+---
+
+<span class="menu-title" style="display: none">git-flow - 4</span>
+
+![Image](./assets/img/git-flow.004.png)
+
+---
+
+<span class="menu-title" style="display: none">git-flow - 5</span>
+
+![Image](./assets/img/git-flow.005.png)
+
+---
+
+<span class="menu-title" style="display: none">git-flow - config</span>
+
+### git-flow config
+
+Init | Config | Use
+--|--|--
+![Image](./assets/img/git-flow-config-1.png)|![Image](./assets/img/git-flow-config-2.png)|![Image](./assets/img/git-flow-config-3.png)
+
+---
+
+## Juste une parenthèse: semver, ça vous parle?
+
+tags, hooks
+
+---
+
+## Des questions sur Le git-flow ?
+
+---
+
+## Ok, les remotes et la collaboration
+
+---
+
+## Des questions sur les remotes et la collaboration ?
+
+---
+
+## Ok, les extras et le fork sur GitHub
+
+---
+
+## Des questions finales ?
