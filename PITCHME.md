@@ -238,9 +238,16 @@ Plusieurs versions, plus ou moins complexes. A vous de trouvez la vôtre!
 
 ### git-flow config
 
-Config | Use
------- | ---
-![Image](./assets/img/git-flow-config-2.png) | ![Image](./assets/img/git-flow-config-3.png)
+<table style="width: 100%">
+<tr>
+<th>Init</th><th>Config</th><th>Use</th>
+</tr>
+<tr>
+<td width="20%"><img src="./assets/img/git-flow-config-1.png"></td>
+<td width="60%"><img src="./assets/img/git-flow-config-2.png"></td>
+<td width="20%"><img src="./assets/img/git-flow-config-3.png"></td>
+</tr>
+</table>
 
 ---
 
