@@ -1,13 +1,13 @@
+---?image=http://f52.tech/_nuxt/img/f52_welcome.2393ff7.jpg&size=cover
+
 <span class="menu-title" style="display: none;">Débuter avec Git et Git-flow</span>
 
 ## Débuter avec git<br/>et git-flow
 
-![Image](./assets/logo-sm.png)<br/>
+![Image](./assets/img/logo-sm.png)<br/>
 Cédric Foellmi – F52 Technologies<br/>cedric@f52.tech – http://f52.tech
 
-<img src="./assets/green-flash.png" class="bottom-img">
-
----?image=http://f52.tech/_nuxt/img/f52_welcome.2393ff7.jpg&size=cover
+---
 
 ## Table des matières
 
