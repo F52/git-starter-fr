@@ -239,7 +239,7 @@ Plusieurs versions, plus ou moins complexes. A vous de trouvez la vôtre!
 ### git-flow config
 
 Init | Config | Use
---|--|--
+--- | --- | ---
 ![Image](./assets/img/git-flow-config-1.png) | ![Image](./assets/img/git-flow-config-2.png) | ![Image](./assets/img/git-flow-config-3.png)
 
 ---
