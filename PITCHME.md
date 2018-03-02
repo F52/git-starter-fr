@@ -4,7 +4,7 @@
 
 ## <span style="color: white;"> Débuter avec git<br/>et git-flow</span>
 
-Cédric Foellmi – F52 Technologies<br/>cedric@f52.tech – http://f52.tech
+<span style="color: lightgray;">Cédric Foellmi – F52 Technologies<br/>cedric@f52.tech –</span> http://f52.tech
 
 ---
 
@@ -59,7 +59,7 @@ renoncé à son système de contrôle de version, devenu payant.
 
 <span class="menu-title" style="display: none">Les principes I</span>
 
-### git un système de contrôle de version *distribué*.
+### git est un système de contrôle de version *distribué*.
 
 Avantages:
 
@@ -101,7 +101,7 @@ Diff | Git
 * **staged** ou mis à l'index: le fichier est marqué pour partir avec le prochain wagon/commit.
 * **modifié**: le fichier est différent de sa précédente copie.
 
-<small>Logiquement, tout fichier nouveau, renommé, déplacé ou effacé est considéré comme "modifié".<small>
+<small>Logiquement, tout fichier nouveau, renommé, déplacé ou effacé est considéré comme "modifié".</small>
 
 <small>Sauf s'il est **ignoré**...</small>
 
@@ -188,13 +188,15 @@ Mais aussi: `git ignore`, et `git status`.
 
 ## Ok, le git-flow
 
+--
+
 <span class="menu-title" style="display: none">git-flow</span>
 
 ### Le git-flow est une "bonne pratique" courante.
 
 <small>Pas une obligation, mais quand autant de monde s'y convertit...</small>
 
-Plusieurs versions, plus ou moins complexes. A vous de trouvez la votre!
+Plusieurs versions, plus ou moins complexes. A vous de trouvez la vôtre!
 
 @fa[arrow-right] https://danielkummer.github.io/git-flow-cheatsheet/
 
@@ -238,7 +240,7 @@ Plusieurs versions, plus ou moins complexes. A vous de trouvez la votre!
 
 Init | Config | Use
 --|--|--
-![Image](./assets/img/git-flow-config-1.png)|![Image](./assets/img/git-flow-config-2.png)|![Image](./assets/img/git-flow-config-3.png)
+![Image](./assets/img/git-flow-config-1.png) | ![Image](./assets/img/git-flow-config-2.png) | ![Image](./assets/img/git-flow-config-3.png)
 
 ---
 
