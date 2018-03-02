@@ -95,23 +95,31 @@ Diff | Git
 
 <span class="menu-title" style="display: none">Les principes IV</span>
 
-### git fonctionne avec 3 états (ou 3 niveaux)
+### git fonctionne avec 3 niveaux
 
-* "commité": le fichier est enregistré dans l'historique.
-* "staged" ou mis à l'index: le fichier est marqué pour partir avec le prochain wagon/commit.
-* "modifié": le fichier est modifié par rapport à sa précédente copie.
+* **commité**: le fichier est enregistré dans la chaîne de commits.
+* **staged** ou mis à l'index: le fichier est marqué pour partir avec le prochain wagon/commit.
+* **modifié**: le fichier est différent de sa précédente copie.
 
-Logiquement, tout fichier nouveau, renommé, déplacé ou effacé est considéré comme "modifié".
+<span style="font-size: medium">Logiquement, tout fichier nouveau, renommé, déplacé ou effacé est considéré comme "modifié".</span>
 
----?image=https://git-scm.com/book/en/v2/images/areas.png&size=cover
+<span style="font-size: medium">Sauf s'il est **ignoré**...</span>
 
+---
 <span class="menu-title" style="display: none">Les principes IV (image)</span>
+
+### git fonctionne avec 3 niveaux
+
+![Image](https://git-scm.com/book/en/v2/images/areas.png)
+
 
 ---
 
 <span class="menu-title" style="display: none">Les principes V</span>
 
 ### Les différents états pour les fichiers
+
+<span style="font-size: medium; opacity=0.6;">(Dernière slide sur les Principes)</span>
 
 ![Image](https://git-scm.com/book/en/v2/images/lifecycle.png)
 
@@ -131,8 +139,8 @@ Logiquement, tout fichier nouveau, renommé, déplacé ou effacé est considér�
 
 Pas obligatoire mais évite des soucis par la suite.
 
-* Le fichier `.gitignore` permet de lister tous les fichiers ou "patterns de fichiers" à ignorer.
-* Un super site pour les .gitignore de vos projets: https://www.gitignore.io
+* Le fichier `.gitignore` permet de lister tous les fichiers ou "motifs de fichiers" à ignorer.
+* @fa[arrow-right] https://www.gitignore.io
 
 * Tapez une fois, les 2 commandes:<br/>
 `git config --global user.name "John Doe"`<br/>
