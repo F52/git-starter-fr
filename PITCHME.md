@@ -78,7 +78,7 @@ Avantages:
 * Git est conçu pour le code, et le texte. Pas pour les binaires (images, PDFs...)
 
 Diff | Git
---- | ---
+---- | ---
 ![Image](https://git-scm.com/book/en/v2/images/deltas.png) | ![Image](https://git-scm.com/book/en/v2/images/snapshots.png)
 
 
@@ -238,9 +238,9 @@ Plusieurs versions, plus ou moins complexes. A vous de trouvez la vôtre!
 
 ### git-flow config
 
-Init | Config | Use
----- | ------ | ---
-![Image](./assets/img/git-flow-config-1.png) | ![Image](./assets/img/git-flow-config-2.png) | ![Image](./assets/img/git-flow-config-3.png)
+Config | Use
+------ | ---
+![Image](./assets/img/git-flow-config-2.png) | ![Image](./assets/img/git-flow-config-3.png)
 
 ---
 
