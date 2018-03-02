@@ -83,3 +83,24 @@ body {
 
 .gp-download { margin-left: 10px; }
 
+/*  CUSTOMIZATION */
+
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.reveal .slides {
+  text-align: left;
+  font-size: smaller
+}
+
+.reveal .slides section>* {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.reveal blockquote {
+  width: 90%
+}
