@@ -4,7 +4,6 @@
 
 ## Débuter avec git<br/>et git-flow
 
-![Image](./assets/img/logo-sm.png)<br/>
 Cédric Foellmi – F52 Technologies<br/>cedric@f52.tech – http://f52.tech
 
 ---
