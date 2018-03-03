@@ -48,6 +48,7 @@ renoncé à son système de contrôle de version, devenu payant.
 * la v1.0 sort le **21 décembre**.
 
 <center>![gif](https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif)</center>
+
 <small>Source: Wikipedia</small>
 
 ---
@@ -80,7 +81,6 @@ Diff | Git
 ---- | ---
 ![Image](https://git-scm.com/book/en/v2/images/deltas.png) | ![Image](https://git-scm.com/book/en/v2/images/snapshots.png)
 
-
 ---
 
 <span class="menu-title" style="display: none">Les principes III</span>
@@ -97,12 +97,12 @@ Diff | Git
 ### git fonctionne avec 3 niveaux
 
 * **commité**: le fichier est enregistré dans la chaîne de commits.
-* **staged** ou mis à l'index: le fichier est marqué pour partir avec le prochain wagon/commit.
-* **modifié**: le fichier est différent de sa précédente copie.
+* ** *staged* ou mis à l'index**: le fichier est marqué pour partir avec le prochain wagon/commit.
+* **modifié**: le fichier diffère de sa précédente copie.
 
-<small>Logiquement, tout fichier nouveau, renommé, déplacé ou effacé est considéré comme "modifié".</small>
+<small>Logiquement, tout fichier nouveau, renommé, déplacé ou effacé est considéré comme "*modifié*".</small>
 
-<small>Sauf s'il est **ignoré**...</small>
+<small>Sauf s'il est explicitement "*ignoré*"...</small>
 
 ---
 <span class="menu-title" style="display: none">Les principes IV (image)</span>
@@ -165,13 +165,13 @@ Boum.
 * **`clone`**: Littéralement. A ne pas confondre avec `checkout` (ni le `checkout` de CVS) !
 * **`branch`**: instantané, ne coûte rien, facile (juste un pointeur).
 * **`checkout`** =  change de branche.
-* **`merge`**: on merge toujours vers soi !
+* **`merge`**: on "*merge*" toujours vers soi !
 
 ---
 
 <span class="menu-title" style="display: none">Le coeur de git: exemple</span>
 
-![Image](./assets/img/logo-sm.png) Dépôt d'exemple sur GitHub
+![Image](./assets/img/logo-sm.png) @fa[arrow-right] Dépôt d'exemple sur GitHub
 
 ![Image](https://git-scm.com/book/en/v2/images/advance-master.png)
 
@@ -347,8 +347,9 @@ Quand l'auteur décide que les changements sont prêts à être intégrés (en 
 
 ![Image](./assets/img/github-fork.6.png)
 
----
 
-## Merci !
+---?image=http://f52.tech/_nuxt/img/f52_welcome_2.7d269a5.jpg&size=cover
 
-#### Des questions finales ?
+## <span style="color: white;"> Merci ! </span>
+
+#### <span style="color: lightgray;">  Des questions finales ? </span>
