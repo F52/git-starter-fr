@@ -173,7 +173,9 @@ Boum.
 
 ### Exemple d'une branche
 
-![Image](./assets/img/logo-sm.png) @fa[arrow-right] Dépôt d'exemple sur GitHub
+![Image](./assets/img/logo-sm.png)
+
+@fa[arrow-right] Dépôt d'exemple sur GitHub
 
 ![Image](https://git-scm.com/book/en/v2/images/advance-master.png)
 
