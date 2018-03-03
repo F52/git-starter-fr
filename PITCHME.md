@@ -119,8 +119,6 @@ Diff | Git
 
 ### Les différents états pour les fichiers
 
-<span style="font-size: medium; opacity=0.6;">(Dernière slide sur les Principes)</span>
-
 ![Image](https://git-scm.com/book/en/v2/images/lifecycle.png)
 
 ---
@@ -157,28 +155,26 @@ Diff | Git
 
 Boum.
 
-Mais aussi: `git ignore`, et `git status`.
-
-<small>Et aussi... `rm`, `mv` et `log` si nécessaire...</small>
+<small>Mais aussi: `git ignore`, et `git status`.</small>
 
 ---
 
-<span class="menu-title" style="display: none">Les commandes de base +</span>
+<span class="menu-title" style="display: none">Le coeur de git</span>
 
-### La base: `branch`, `checkout`, `merge`
+### Le coeur de git
 
-
----
-
-<span class="menu-title" style="display: none">clone</span>
-
-### Le clonage: `clone` (et une remarque sur les dépôts locaux)
+* **`clone`**: Littéralement. A ne pas confondre avec `checkout` (ni le `checkout` de CVS) !
+* **`branch`**: instantané, ne coûte rien, facile (juste un pointeur).
+* **`checkout`** =  change de branche.
+* **`merge`**: on merge toujours vers soi !
 
 ---
 
-<span class="menu-title" style="display: none">Défaire</span>
+<span class="menu-title" style="display: none">Le coeur de git: exemple</span>
 
-## Défaire
+![Image](./assets/img/logo-sm.png) Dépôt d'exemple sur GitHub
+
+![Image](https://git-scm.com/book/en/v2/images/advance-master.png)
 
 ---
 
@@ -251,7 +247,20 @@ Plusieurs versions, plus ou moins complexes. A vous de trouvez la vôtre!
 
 ---
 
-## Juste une parenthèse: semver, ça vous parle?
+<span class="menu-title" style="display: none">tags & hooks</span>
+
+### Les Tags et les Hooks
+
+* Des outils puissants.
+* Les portes d'entrée vers l'intégration continue, et l'industrialisa
+
+---
+
+<span class="menu-title" style="display: none">semver?</span>
+
+### Juste une parenthèse: semver, ça vous parle?
+
+@fa[arrow-right] https://semver.org
 
 tags, hooks
 
@@ -265,11 +274,77 @@ tags, hooks
 
 ---
 
+<span class="menu-title" style="display: none">git remote</span>
+
+### Oui, il peut y en avoir plusieurs
+
+Exemple:
+
+...
+
+---
+
 ## Des questions sur les remotes et la collaboration ?
 
 ---
 
 ## Ok, les extras et le fork sur GitHub
+
+---
+
+<span class="menu-title" style="display: none">github-fork - 1</span>
+
+Ce framework a l'air intéressant. Clic pour faire un fork !
+
+![Image](./assets/img/github-fork.1.png)
+
+---
+
+<span class="menu-title" style="display: none">github-fork - 2</span>
+
+J'ai maintenant une copie entière du projet, avec ma propre adresse `.git`.
+C'est sur ma copie que je fais des changements.
+
+![Image](./assets/img/github-fork.2.png)
+
+---
+
+Une fois satisfait des changements, je soumets une "Pull Request".
+Une discussion prend place.
+
+<span class="menu-title" style="display: none">github-fork - 3</span>
+
+![Image](./assets/img/github-fork.3.png)
+
+---
+
+Chaque ligne modifiée peut être (âprement) discutée.
+Le projet source n'a subit strictement aucune altération.
+
+<span class="menu-title" style="display: none">github-fork - 4</span>
+
+![Image](./assets/img/github-fork.4.png)
+
+---
+
+Si je donne accès en écriture à ma PR, l'auteur peut participer aux changements,
+par des commits.
+
+<span class="menu-title" style="display: none">github-fork - 5</span>
+
+![Image](./assets/img/github-fork.5.png)
+
+---
+
+Quand l'auteur décide que les changements sont prêts à être intégrés (en supposant
+  que tous les outils d'intégration continue mis en place pour ce projet soient au vert...),
+  la PR est "mergée"/"fusionnée" et apparaît dans l'historique du projet initial.
+
+  Tout le monde peut maintenant profiter des changements que j'ai proposé.
+
+<span class="menu-title" style="display: none">github-fork - 6</span>
+
+![Image](./assets/img/github-fork.6.png)
 
 ---
 
