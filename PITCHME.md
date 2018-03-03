@@ -254,7 +254,7 @@ Plusieurs versions, plus ou moins complexes. A vous de trouvez la vôtre!
 ### Les Tags et les Hooks
 
 * Des outils puissants.
-* Les portes d'entrée vers l'intégration continue, et l'industrialisa
+* **Les portes d'entrée vers l'intégration continue, et l'industrialisation...**
 * semver, ça vous parle ? @fa[arrow-right] https://semver.org
 
 ---
