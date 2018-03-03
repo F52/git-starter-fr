@@ -17,7 +17,6 @@
 * Les <span class="code">remotes</span> et les plateformes (GitHub...)
 * Collaborer
 <hr>
-* Les dépôts du F52 pour vous exercer !
 * Quelques exemples de clients
 * Un fork sur GitHub
 
@@ -184,7 +183,7 @@ Boum.
 
 ## Ok, le git-flow
 
---
+---
 
 <span class="menu-title" style="display: none">git-flow</span>
 
@@ -253,16 +252,7 @@ Plusieurs versions, plus ou moins complexes. A vous de trouvez la vôtre!
 
 * Des outils puissants.
 * Les portes d'entrée vers l'intégration continue, et l'industrialisa
-
----
-
-<span class="menu-title" style="display: none">semver?</span>
-
-### Juste une parenthèse: semver, ça vous parle?
-
-@fa[arrow-right] https://semver.org
-
-tags, hooks
+* semver, ça vous parle ? @fa[arrow-right] https://semver.org
 
 ---
 
@@ -289,6 +279,17 @@ Exemple:
 ---
 
 ## Ok, les extras et le fork sur GitHub
+
+---
+
+<span class="menu-title" style="display: none">Quelques clients</span>
+
+### Quelques clients
+
+* GitKraken
+* Tower
+* SourceTree
+* TortoiseGit
 
 ---
 
@@ -348,4 +349,6 @@ Quand l'auteur décide que les changements sont prêts à être intégrés (en 
 
 ---
 
-## Des questions finales ?
+## Merci !
+
+#### Des questions finales ?
