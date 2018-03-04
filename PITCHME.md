@@ -353,12 +353,12 @@ Exemple avec `simple-webserver.git` local.
 
 <small>Il est souvent préférable d'utiliser le même dans une même équipe.</small>
 
-* **Tower** (@fa[arrow-right] https://git-tower.com) Payant (69€)
+* **Tower** (@fa[arrow-right] https://git-tower.com) Payant (69€) @fa[windows] @fa[apple]
+* **GitHub Desktop** (@fa[arrow-right] https://desktop.github.com) Gratuit @fa[windows] @fa[apple]
 * **GitKraken** (@fa[arrow-right] https://gitkraken.com) Gratuit & payant. @fa[windows] @fa[apple] @fa[linux]
 * **SourceTree** (@fa[arrow-right] https://www.sourcetreeapp.com) Gratuit @fa[windows] @fa[apple]
-* **TortoiseGit** (@fa[arrow-right] https://www.sourcetreeapp.com) Gratuit @fa[windows]
-* **GitHub Desktop** (@fa[arrow-right] https://desktop.github.com) Gratuit @fa[windows] @fa[apple]
 * **GitUp** (@fa[arrow-right] http://gitup.co) Gratuit @fa[apple]
+* **TortoiseGit** (@fa[arrow-right] https://tortoisegit.org) Gratuit @fa[windows]
 
 <small>Il existe aussi des intégrations directes dans les IDEs (JetBrains...)</small>
 
