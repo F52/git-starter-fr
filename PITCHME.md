@@ -154,7 +154,7 @@ Diff | Git
 
 Boum.
 
-<small>Mais aussi: `git ignore`, et `git status`.</small>
+<small>Mais aussi: `git ignore`, `git status`, et `git log`.</small>
 
 ---
 
@@ -162,10 +162,10 @@ Boum.
 
 ### Le coeur de git
 
-* **`clone`**: Littéralement. A ne pas confondre avec `checkout` (ni le `checkout` de CVS) !
-* **`branch`**: instantané, ne coûte rien, facile (juste un pointeur).
-* **`checkout`** =  change de branche.
-* **`merge`**: on "*merge*" toujours vers soi !
+* **`git clone`** = Clone un dépôt. Littéralement. Différent du `checkout` de CVS !
+* **`git branch`** = Crée une branche. Instantané, ne coûte rien.
+* **`git checkout`** = Change de branche.
+* **`git merge`** = Fusionne une branche. On "*merge*" toujours vers soi !
 
 ---
 
@@ -173,7 +173,6 @@ Boum.
 
 ### Exemple d'une branche
 
-![Image](./assets/img/logo-sm.png)
 @fa[arrow-right] Dépôt d'exemple sur GitHub
 
 ![Image](https://git-scm.com/book/en/v2/images/advance-master.png)
@@ -198,15 +197,23 @@ Plusieurs versions, plus ou moins complexes. A vous de trouvez la vôtre!
 
 @fa[arrow-right] https://danielkummer.github.io/git-flow-cheatsheet/
 
-**`git flow init`**
+Doit être installé, puis initialisé dans un dépôt: **`git flow init`**
 
 ---
 
 <span class="menu-title" style="display: none">git-flow - 1</span>
 
+**`develop`** = branche principale de développement
+
+**Règle importante**: celui qui casse le `build` de `develop`, arrête **tout** et répare immédiatement.
+
 ![Image](./assets/img/git-flow.001.png)
 
 ---
+
+**`feature/<nom de la feature>`** = branche spécifique de développement
+
+Travail en cours. Peut être "cassée" à tout moment.
 
 <span class="menu-title" style="display: none">git-flow - 2</span>
 
@@ -216,17 +223,23 @@ Plusieurs versions, plus ou moins complexes. A vous de trouvez la vôtre!
 
 <span class="menu-title" style="display: none">git-flow - 3</span>
 
+**`release/<nom de la release>`** = branche spécifique pour la livraison
+
 ![Image](./assets/img/git-flow.003.png)
 
 ---
 
 <span class="menu-title" style="display: none">git-flow - 4</span>
 
+**`master`** = branche de production. Ne contient que les commits qui sont partis en prod.
+
 ![Image](./assets/img/git-flow.004.png)
 
 ---
 
 <span class="menu-title" style="display: none">git-flow - 5</span>
+
+**`hotfix/<nom du hotfix>`** = branche de hotfix. Ça arrive à tout le monde...
 
 ![Image](./assets/img/git-flow.005.png)
 
@@ -238,7 +251,7 @@ Plusieurs versions, plus ou moins complexes. A vous de trouvez la vôtre!
 
 <table style="width: 100%">
 <tr>
-<th>Init</th><th>Config</th><th>Use</th>
+<th>1. Init</th><th>2. Config</th><th>3. Use</th>
 </tr>
 <tr>
 <td width="20%"><img src="https://github.com/F52/git-starter-fr/raw/master/assets/img/git-flow-config-1.png"></td>
@@ -336,12 +349,18 @@ Exemple avec `simple-webserver.git` local.
 
 <span class="menu-title" style="display: none">Quelques clients</span>
 
-### Quelques clients
+### Quelques clients (une sélection personnelle)
 
-* GitKraken
-* Tower
-* SourceTree
-* TortoiseGit
+Il est souvent préférable d'utiliser le même dans une même équipe.
+
+* Tower (@fa[arrow-right] https://git-tower.com) Payant (69€)
+* GitKraken (@fa[arrow-right] https://gitkraken.com) Gratuit (pour FOSS, mais ensuite payant). @fa[windows] @fa[apple] @fa[linux]
+* SourceTree (@fa[arrow-right] https://www.sourcetreeapp.com) Gratuit @fa[windows] @fa[apple]
+* TortoiseGit (@fa[arrow-right] https://www.sourcetreeapp.com) Gratuit @fa[windows]
+* GitHub Desktop (@fa[arrow-right] https://desktop.github.com) Gratuit @fa[windows] @fa[apple]
+* GitUp (@fa[arrow-right] http://gitup.co) Gratuit @fa[apple]
+
+Il existe aussi des intégrations directes dans les IDEs (JetBrains...)
 
 ---
 
