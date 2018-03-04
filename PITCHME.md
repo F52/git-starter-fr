@@ -18,7 +18,7 @@
 * Collaborer
 <hr>
 * Quelques exemples de clients
-* Un fork sur GitHub
+* Une *pull request* sur GitHub
 
 
 ---
@@ -193,11 +193,11 @@ Boum.
 
 <small>Pas une obligation, mais quand autant de monde s'y convertit...</small>
 
-Plusieurs versions, plus ou moins complexes. A vous de trouvez la vôtre!
+Plusieurs versions, plus ou moins complexes. Voir par exemple @fa[arrow-right] https://about.gitlab.com/2014/09/29/gitlab-flow/ (GitLab Flow)
 
-@fa[arrow-right] https://danielkummer.github.io/git-flow-cheatsheet/
+*git-flow cheatsheet* : @fa[arrow-right] https://danielkummer.github.io/git-flow-cheatsheet/
 
-Doit être installé, puis initialisé dans un dépôt: **`git flow init`**
+Le git-flow doit être installé, puis initialisé dans un dépôt: **`git flow init`**
 
 ---
 
@@ -298,29 +298,15 @@ Elles ont toujours la forme
 
 <center>**`<nom de la remote>/<nom de la branche>`**</center>
 
-Par défaut, git crée une branche `master`. Quand on clone un dépôt,
-par défaut, la `remote` s'appelle `origin`.
+Quand on clone un dépôt, la `remote` par défaut s'appelle `origin`.
 
 ---
 
 <span class="menu-title" style="display: none">git remote branches</span>
 
-### Les références distantes
+### Les références distantes (exemple)
 
 ![Image](./assets/img/git-branches-remotes.png)
-
----
-
-<span class="menu-title" style="display: none">Plateformes</span>
-
-### Les (principales) plateformes
-
- | GitHub | GitLab | BitBucket
---- | --- | --- | ----
- | @fa[github] | @fa[gitlab] | @fa[bitbucket]
-FOSS | gratuit | ? | ?
-Dépôts privés | 7 US$/mois | ? | ?
-CI | Intégrations Multiples | Interne | ?
 
 ---
 
@@ -328,7 +314,9 @@ CI | Intégrations Multiples | Interne | ?
 
 ### Collaborer
 
-fetch, pull, push
+* **`git fetch`** = récupère les nouveaux commits de la, ou des, `remote`(s)
+* **`git pull`** = `git fetch` + `git merge`
+* **`git push`** = pousse les changements locaux sur la `remote`
 
 ---
 
@@ -336,7 +324,8 @@ fetch, pull, push
 
 ### Merge vs Rebase...
 
-merge vs rebase
+* **`git merge`** = crée un nouveau commit de fusion. Sauf si *fast-forward*. Sauf si commit forcé...
+* **`git rebase`** = rejoue l'historique depuis l'ancêtre commun.
 
 ---
 
@@ -347,8 +336,23 @@ merge vs rebase
 * Des outils puissants.
 * **Les portes d'entrée vers l'intégration continue, et l'industrialisation...**
 * semver, ça vous parle ? @fa[arrow-right] https://semver.org
+* **`git tag`** = assign un nom à un commit donné.
 
 Exemple avec `simple-webserver.git` local.
+
+---
+
+<span class="menu-title" style="display: none">Plateformes</span>
+
+### Les (principales) plateformes
+
+ | @fa[github] GitHub | @fa[gitlab] GitLab | @fa[bitbucket] BitBucket
+--- | --- | --- | ----
+**FOSS** | gratuit | gratuit | gratuit
+**Dépôts privés** | 7 US$/mois | gratuit | gratuit
+**CI** | Intégrations Multiples | **"Built-in"** | 50 min gratuites
+***Self-Hosted*** | $21 par u./mois | gratuit | 1800 $US / an (25 u.)
+**Notes** | + grande communauté OS | très complet | supporte Mercurial
 
 ---
 
@@ -356,7 +360,7 @@ Exemple avec `simple-webserver.git` local.
 
 ---
 
-## Ok, des clients et le fork sur GitHub
+## Ok, des clients et la *pull request* sur GitHub
 
 ---
 
@@ -379,9 +383,11 @@ Exemple avec `simple-webserver.git` local.
 
 <span class="menu-title" style="display: none">github-fork</span>
 
-### Un "fork" sur GitHub
+### Un *fork*, suivi d'une *pull request* sur GitHub
 
 Le coeur de la collaboration, en particulier open-source.
+
+Chez GitLab, ça s'appelle une *merge request*
 
 ---
 
