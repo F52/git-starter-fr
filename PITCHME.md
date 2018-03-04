@@ -259,13 +259,12 @@ Plusieurs versions, plus ou moins complexes. A vous de trouvez la vôtre!
 
 <span class="menu-title" style="display: none">git remote</span>
 
-### Une `remote` c'est l'adresse d'un repository distant
+### Une `remote` c'est l'adresse d'un dépôt distant
 
 * Ce repository peut être sur un serveur distant, sur une machine, etc.
 * Il existe plusieurs protocoles de communication avec une remote.
 * Généralement, quand vous le pouvez, **préférez toujours `git+ssh`** (avec des clés `ssh`).
 
-Exemple:
 ```bash
 $ git remote -v
 origin	git@github.com:F52/git-starter-fr.git (fetch)
@@ -279,15 +278,43 @@ $
 
 ### Les références distantes
 
+Le git-book:
 > Les références distantes sont des références (pointeurs) vers les éléments de votre dépôt distant tels que les branches, les tags etc...
 
-**Elles ont toujours la forme `<nom de la remote>/<nom de la branche>`**
+Elles ont toujours la forme
+
+<center>**`<nom de la remote>/<nom de la branche>`**</center>
 
 Ce point est essentiel. Une grande partie de la clé pour lire un historique
 git tient dans la distinction à conserver en tête entre les branches locales,
 et les distantes.
 
+Par défaut, git crée une branche `master`. Quand on clone un dépôt,
+par défaut, la `remote` s'appelle `origin`.
+
+---
+
+<span class="menu-title" style="display: none">git remote branches</span>
+
+### Les références distantes
+
 ![Image](./assets/img/git-branches-remotes.png)
+
+---
+
+<span class="menu-title" style="display: none">git remote branches</span>
+
+### Collaborer
+
+fetch, pull, push
+
+---
+
+<span class="menu-title" style="display: none">git remote branches</span>
+
+### Merge vs Rebase...
+
+merge vs rebase
 
 ---
 
@@ -298,6 +325,8 @@ et les distantes.
 * Des outils puissants.
 * **Les portes d'entrée vers l'intégration continue, et l'industrialisation...**
 * semver, ça vous parle ? @fa[arrow-right] https://semver.org
+
+Exemple avec `simple-webserver.git` local.
 
 ---
 
