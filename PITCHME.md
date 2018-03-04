@@ -327,6 +327,10 @@ Quand on clone un dépôt, la `remote` par défaut s'appelle `origin`.
 * **`git merge`** = crée un nouveau commit de fusion. Sauf si *fast-forward*. Sauf si commit forcé (*-no-ff*)...
 * **`git rebase`** = rejoue l'historique depuis l'ancêtre commun.
 
+merge | rebase
+--- | ---
+![Image](https://git-scm.com/book/en/v2/images/basic-rebase-2.png) | ![Image](https://git-scm.com/book/en/v2/images/basic-rebase-4.png)
+
 ---
 
 <span class="menu-title" style="display: none">tags & hooks</span>
