@@ -249,16 +249,6 @@ Plusieurs versions, plus ou moins complexes. A vous de trouvez la vôtre!
 
 ---
 
-<span class="menu-title" style="display: none">tags & hooks</span>
-
-### Les Tags et les Hooks
-
-* Des outils puissants.
-* **Les portes d'entrée vers l'intégration continue, et l'industrialisation...**
-* semver, ça vous parle ? @fa[arrow-right] https://semver.org
-
----
-
 ## Des questions sur Le git-flow ?
 
 ---
@@ -269,11 +259,45 @@ Plusieurs versions, plus ou moins complexes. A vous de trouvez la vôtre!
 
 <span class="menu-title" style="display: none">git remote</span>
 
-### Oui, il peut y en avoir plusieurs
+### Une `remote` c'est l'adresse d'un repository distant
+
+* Ce repository peut être sur un serveur distant, sur une machine, etc.
+* Il existe plusieurs protocoles de communication avec une remote.
+* Généralement, quand vous le pouvez, **préférez toujours `git+ssh`** (avec des clés `ssh`).
 
 Exemple:
+```bash
+$ git remote -v
+origin	git@github.com:F52/git-starter-fr.git (fetch)
+origin	git@github.com:F52/git-starter-fr.git (push)
+$
+```
 
-...
+---
+
+<span class="menu-title" style="display: none">git remote branches</span>
+
+### Les références distantes
+
+> Les références distantes sont des références (pointeurs) vers les éléments de votre dépôt distant tels que les branches, les tags etc...
+
+**Elles ont toujours la forme `<nom de la remote>/<nom de la branche>`**
+
+Ce point est essentiel. Une grande partie de la clé pour lire un historique
+git tient dans la distinction à conserver en tête entre les branches locales,
+et les distantes.
+
+![Image](./assets/img/git-branches-remotes.png)
+
+---
+
+<span class="menu-title" style="display: none">tags & hooks</span>
+
+### Les Tags et les Hooks
+
+* Des outils puissants.
+* **Les portes d'entrée vers l'intégration continue, et l'industrialisation...**
+* semver, ça vous parle ? @fa[arrow-right] https://semver.org
 
 ---
 
