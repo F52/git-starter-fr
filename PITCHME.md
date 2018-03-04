@@ -285,10 +285,6 @@ Elles ont toujours la forme
 
 <center>**`<nom de la remote>/<nom de la branche>`**</center>
 
-Ce point est essentiel. Une grande partie de la clé pour lire un historique
-git tient dans la distinction à conserver en tête entre les branches locales,
-et les distantes.
-
 Par défaut, git crée une branche `master`. Quand on clone un dépôt,
 par défaut, la `remote` s'appelle `origin`.
 
