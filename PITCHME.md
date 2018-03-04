@@ -364,6 +364,14 @@ Exemple avec `simple-webserver.git` local.
 
 ---
 
+<span class="menu-title" style="display: none">github-fork</span>
+
+### Un "fork" sur GitHub
+
+Le coeur de la collaboration, en particulier open-source.
+
+---
+
 <span class="menu-title" style="display: none">github-fork - 1</span>
 
 Ce framework a l'air intéressant. Clic pour faire un fork !
@@ -374,7 +382,7 @@ Ce framework a l'air intéressant. Clic pour faire un fork !
 
 <span class="menu-title" style="display: none">github-fork - 2</span>
 
-J'ai maintenant une copie entière du projet, avec ma propre adresse `.git`.
+J'ai maintenant une **copie entière du projet**, avec ma propre adresse `.git`.
 C'est sur ma copie que je fais des changements.
 
 ![Image](./assets/img/github-fork.2.png)
@@ -382,7 +390,7 @@ C'est sur ma copie que je fais des changements.
 ---
 
 Une fois satisfait des changements, je soumets une "Pull Request".
-Une discussion prend place.
+**Une discussion prend place.**
 
 <span class="menu-title" style="display: none">github-fork - 3</span>
 
@@ -391,7 +399,7 @@ Une discussion prend place.
 ---
 
 Chaque ligne modifiée peut être (âprement) discutée.
-Le projet source n'a subit strictement aucune altération.
+**Le projet source n'a subit strictement aucune altération.**
 
 <span class="menu-title" style="display: none">github-fork - 4</span>
 
@@ -408,11 +416,9 @@ par des commits.
 
 ---
 
-Quand l'auteur décide que les changements sont prêts à être intégrés (en supposant
-  que tous les outils d'intégration continue mis en place pour ce projet soient au vert...),
-  la PR est "mergée"/"fusionnée" et apparaît dans l'historique du projet initial.
-
-  Tout le monde peut maintenant profiter des changements que j'ai proposé.
+Quand l'auteur décide que les changements sont prêts à être intégrés la PR est
+"mergée"/"fusionnée" et apparaît dans l'historique du projet initial.
+**Tout le monde peut maintenant profiter des changements que j'ai proposés.**
 
 <span class="menu-title" style="display: none">github-fork - 6</span>
 
@@ -421,6 +427,8 @@ Quand l'auteur décide que les changements sont prêts à être intégrés (en 
 
 ---?image=http://f52.tech/_nuxt/img/f52_welcome_2.7d269a5.jpg&size=cover
 
-## <span style="color: white;"> Merci ! </span>
+## <span style="color: white;"> Merci. </span>
 
 #### <span style="color: lightgray;">  Des questions finales ? </span>
+
+#### <span style="color: lightgray;">  N'oubliez pas la petite évaluation ! </span>
