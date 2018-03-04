@@ -351,7 +351,7 @@ Exemple avec `simple-webserver.git` local.
 **FOSS** | gratuit | gratuit | gratuit
 **Dépôts privés** | 7 $/mois | gratuit | gratuit
 **CI** | Intégrations Multiples | **"Built-in"** | 50 min gratuites
-***Self-Hosted*** | 21 $/u/mois | gratuit | 1800 $/an (25 u.)
+***Self-Hosted*** | 21 $/u/mois | gratuit | 1800 $/an/25 u
 
 ---
 
