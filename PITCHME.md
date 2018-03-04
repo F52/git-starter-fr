@@ -311,6 +311,19 @@ par défaut, la `remote` s'appelle `origin`.
 
 ---
 
+<span class="menu-title" style="display: none">Plateformes</span>
+
+### Les (principales) plateformes
+
+ | GitHub | GitLab | BitBucket
+--- | --- | --- | ----
+ | @fa[github] | @fa[gitlab] | @fa[bitbucket]
+FOSS | gratuit | ? | ?
+Dépôts privés | 7 US$/mois | ? | ?
+CI | Intégrations Multiples | Interne | ?
+
+---
+
 <span class="menu-title" style="display: none">git remote branches</span>
 
 ### Collaborer
@@ -343,7 +356,7 @@ Exemple avec `simple-webserver.git` local.
 
 ---
 
-## Ok, les extras et le fork sur GitHub
+## Ok, des clients et le fork sur GitHub
 
 ---
 
