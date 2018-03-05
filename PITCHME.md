@@ -26,7 +26,7 @@
 <span class="menu-title" style="display: none">Historique 1</span>
 
 Git a débuté en 2005 après que Linus Torvald, le créateur de Linux, a dû
-renoncé à son système de contrôle de version, devenu payant.
+renoncer à son système de contrôle de version, devenu payant.
 
 "git" veut dire "personne désagréable" en anglais argotique.
 
@@ -65,7 +65,7 @@ Avantages:
 
 * Pas besoin de serveur central, pas de "single point of failure"
 * Permet de continuer à travailler hors-ligne
-* Cloner un dépôt signifie obtenir l'entierté du projet, historique compris.
+* Cloner un dépôt signifie obtenir l'entiereté du projet, historique compris.
 * **(Presque) tout se passe "localement"**
 
 ---
