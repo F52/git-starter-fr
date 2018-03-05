@@ -59,7 +59,7 @@ renoncer à son système de contrôle de version, devenu payant.
 
 <span class="menu-title" style="display: none">Les principes I</span>
 
-<img style="float: right; clear: both;" src="./assets/img/centralized-distributed.jpg">
+<img style="float: right; clear: both;" src="./assets/img/centralized-distributed.jpg" width=50%>
 
 ### git est un système de contrôle de version *distribué*.
 
@@ -96,6 +96,8 @@ Diff | Git
 
 <span class="menu-title" style="display: none">Les principes IV</span>
 
+<img style="float: right; clear: both;" src="https://git-scm.com/book/en/v2/images/areas.png" width=50%>
+
 ### git fonctionne avec 3 niveaux
 
 * **commité**: le fichier est enregistré dans la chaîne de commits.
@@ -105,14 +107,6 @@ Diff | Git
 <small>Logiquement, tout fichier nouveau, renommé, déplacé ou effacé est considéré comme "*modifié*".</small>
 
 <small>Sauf s'il est explicitement "*ignoré*"...</small>
-
----
-<span class="menu-title" style="display: none">Les principes IV (image)</span>
-
-### git fonctionne avec 3 niveaux
-
-![Image](https://git-scm.com/book/en/v2/images/areas.png)
-
 
 ---
 
