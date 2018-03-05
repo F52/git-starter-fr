@@ -61,7 +61,7 @@ renoncer à son système de contrôle de version, devenu payant.
 
 ### git est un système de contrôle de version *distribué*.
 
-<img style="float: right; margin: 0 10px;" src="./assets/img/centralized-distributed.jpg" width=40%>
+<img style="float: right; margin: 0 10px;" src="assets/img/centralized-distributed.jpg" width=40%>
 
 Avantages:
 
@@ -203,7 +203,7 @@ Le git-flow doit être installé, puis initialisé dans un dépôt: **`git flow 
 
 **Règle importante**: celui qui casse le `build` de `develop`, arrête **tout** et répare immédiatement.
 
-![Image](./assets/img/git-flow.001.png)
+![Image](assets/img/git-flow.001.png)
 
 ---
 
@@ -213,7 +213,7 @@ Travail en cours. Peut être "cassée" à tout moment.
 
 <span class="menu-title" style="display: none">git-flow - 2</span>
 
-![Image](./assets/img/git-flow.002.png)
+![Image](assets/img/git-flow.002.png)
 
 ---
 
@@ -221,7 +221,7 @@ Travail en cours. Peut être "cassée" à tout moment.
 
 **`release/<nom de la release>`** = branche spécifique pour la livraison
 
-![Image](./assets/img/git-flow.003.png)
+![Image](assets/img/git-flow.003.png)
 
 ---
 
@@ -229,7 +229,7 @@ Travail en cours. Peut être "cassée" à tout moment.
 
 **`master`** = branche de production. Ne contient que les commits qui sont partis en prod.
 
-![Image](./assets/img/git-flow.004.png)
+![Image](assets/img/git-flow.004.png)
 
 ---
 
@@ -237,7 +237,7 @@ Travail en cours. Peut être "cassée" à tout moment.
 
 **`hotfix/<nom du hotfix>`** = branche de hotfix. Ça arrive à tout le monde...
 
-![Image](./assets/img/git-flow.005.png)
+![Image](assets/img/git-flow.005.png)
 
 ---
 
@@ -302,7 +302,7 @@ Quand on clone un dépôt, la `remote` par défaut s'appelle `origin`.
 
 ### Les références distantes (exemple)
 
-![Image](./assets/img/git-branches-remotes.png)
+![Image](assets/img/git-branches-remotes.png)
 
 ---
 
@@ -394,7 +394,7 @@ Chez GitLab, ça s'appelle une *merge request*
 
 Ce framework a l'air intéressant. Clic pour faire un fork !
 
-![Image](./assets/img/github-fork.1.png)
+![Image](assets/img/github-fork.1.png)
 
 ---
 
@@ -403,7 +403,7 @@ Ce framework a l'air intéressant. Clic pour faire un fork !
 J'ai maintenant une **copie entière du projet**, avec ma propre adresse `.git`.
 C'est sur ma copie que je fais des changements.
 
-![Image](./assets/img/github-fork.2.png)
+![Image](assets/img/github-fork.2.png)
 
 ---
 
@@ -412,7 +412,7 @@ Une fois satisfait des changements, je soumets une "Pull Request".
 
 <span class="menu-title" style="display: none">github-fork - 3</span>
 
-![Image](./assets/img/github-fork.3.png)
+![Image](assets/img/github-fork.3.png)
 
 ---
 
@@ -421,7 +421,7 @@ Chaque ligne modifiée peut être (âprement) discutée.
 
 <span class="menu-title" style="display: none">github-fork - 4</span>
 
-![Image](./assets/img/github-fork.4.png)
+![Image](assets/img/github-fork.4.png)
 
 ---
 
@@ -430,7 +430,7 @@ par des commits.
 
 <span class="menu-title" style="display: none">github-fork - 5</span>
 
-![Image](./assets/img/github-fork.5.png)
+![Image](assets/img/github-fork.5.png)
 
 ---
 
@@ -440,7 +440,7 @@ Quand l'auteur décide que les changements sont prêts à être intégrés la P
 
 <span class="menu-title" style="display: none">github-fork - 6</span>
 
-![Image](./assets/img/github-fork.6.png)
+![Image](assets/img/github-fork.6.png)
 
 
 ---?image=http://f52.tech/_nuxt/img/f52_welcome_2.7d269a5.jpg&size=cover
