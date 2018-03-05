@@ -59,9 +59,9 @@ renoncer à son système de contrôle de version, devenu payant.
 
 <span class="menu-title" style="display: none">Les principes I</span>
 
-<img style="float: right; display: inline-block;" src="./assets/img/centralized-distributed.jpg" width=50%>
-
 ### git est un système de contrôle de version *distribué*.
+
+<img style="float: right; display: inline-block;" src="./assets/img/centralized-distributed.jpg" width=50%>
 
 Avantages:
 
@@ -96,9 +96,9 @@ Diff | Git
 
 <span class="menu-title" style="display: none">Les principes IV</span>
 
-<img style="float: right; clear: both;" src="https://git-scm.com/book/en/v2/images/areas.png" width=50%>
-
 ### git fonctionne avec 3 niveaux
+
+<img style="float: right; display: inline-block;" src="https://git-scm.com/book/en/v2/images/areas.png" width=50%>
 
 * **commité**: le fichier est enregistré dans la chaîne de commits.
 * ** *staged* ou mis à l'index**: le fichier est marqué pour partir avec le prochain wagon/commit.
