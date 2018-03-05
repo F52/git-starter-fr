@@ -61,6 +61,8 @@ renoncer à son système de contrôle de version, devenu payant.
 
 ### git est un système de contrôle de version *distribué*.
 
+<img style="float: right;" src="./assets/img/centralized-distributed.jpg">
+
 Avantages:
 
 * Pas besoin de serveur central, pas de "single point of failure"
