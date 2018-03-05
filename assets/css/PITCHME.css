@@ -18,6 +18,10 @@ h3 {
   color: #ccc;
 }
 
+ul {
+  display: block !important;
+}
+
 .reveal pre {
   width: 100%;
   box-shadow : none;
