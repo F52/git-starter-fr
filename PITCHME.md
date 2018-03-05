@@ -59,7 +59,7 @@ renoncer à son système de contrôle de version, devenu payant.
 
 <span class="menu-title" style="display: none">Les principes I</span>
 
-<img style="float: right;" src="./assets/img/centralized-distributed.jpg" width=50%>
+<img style="float: right; display: inline-block;" src="./assets/img/centralized-distributed.jpg" width=50%>
 
 ### git est un système de contrôle de version *distribué*.
 
