@@ -386,7 +386,7 @@ Exemple avec `simple-webserver.git` local.
 
 Le coeur de la collaboration, en particulier open-source.
 
-Chez GitLab, ça s'appelle une *merge request*
+Chez GitLab, ça s'appelle une *merge request*.
 
 ---
 
