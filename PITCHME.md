@@ -101,7 +101,7 @@ Diff | Git
 <img style="float: right; margin: 0 10px;" src="https://git-scm.com/book/en/v2/images/areas.png" width=50%>
 
 * **commité**: le fichier est enregistré dans la chaîne de commits.
-* ** *staged* ou mis à l'index**: le fichier est marqué pour partir avec le prochain wagon/commit.
+* ** *staged* ou mis à l'index**: le fichier est marqué pour partir avec le prochain commit.
 * **modifié**: le fichier diffère de sa précédente copie.
 
 <small>Logiquement, tout fichier nouveau, renommé, déplacé ou effacé est considéré comme "*modifié*".</small>
