@@ -1,5 +1,5 @@
 # theme : white
-# theme-override : assets/css/PITCHME.css
+theme-override : assets/css/PITCHME.css
 logo : assets/img/logo.png
 highlight : atom-one-dark
 transition : none
