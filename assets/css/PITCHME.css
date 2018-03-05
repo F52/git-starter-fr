@@ -14,6 +14,10 @@ body {
   /* background: linear-gradient(to left, #f2994a, #f2c94c); */
 }
 
+h3 {
+  color: #ccc;
+}
+
 .reveal pre {
   width: 100%;
   box-shadow : none;
