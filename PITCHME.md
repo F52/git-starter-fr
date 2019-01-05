@@ -162,6 +162,55 @@ Boum.
 * **`git branch`** = Crée une branche. Instantané, ne coûte rien.
 * **`git checkout`** = Change de branche.
 * **`git merge`** = Fusionne une branche. On "*merge*" toujours vers soi !
+* **`git fetch`** = Récupère les changements présents sur une `remote`.
+* **`git pull`** = Récupère les changements présents sur une `remote` et les fusionne (= `git fetch` + `git merge`).
+* **`git push`** = Pousse les changements sur une `remote`.
+* **`git tag`** = Etiquette un commit avec un nom.
+
+(exemples au terminal...)
+
+---
+
+<span class="menu-title" style="display: none">Le coeur de git: merge</span>
+
+### Démystifier le git merge
+
+
+
+---
+
+<span class="menu-title" style="display: none">Le coeur de git: push</span>
+
+### Exemple d'un git push
+
+La syntaxe complète est toujours la même:
+
+`git push <where-to-push> <source-ref>:<destination-ref>`
+
+Un exemple complet (remote: `origin`, `push` de `master` local vers le `master` distant):
+
+`git push origin refs/heads/master:refs/heads/master`
+
+Mais avec les chemins par défaut, ça peut s'abbréger:
+
+`git push origin master:master`
+
+Les tags c'est pareil:
+
+`git push origin refs/tags/release-1.0:refs/tags/release-1.0`
+
+Ou la version raccourcie:
+
+`git push origin release-1.0:release-1.0`
+
+Et donc pour supprimer un tag, il suffit de mettre "rien" dans la source:
+
+`git push origin :release-1.0`
+
+Voir les `refs` ?
+
+`git show-ref (--head)`
+
 
 ---
 
