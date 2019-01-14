@@ -158,10 +158,10 @@ Boum.
 
 ### Le coeur de git
 
-* **`git clone`** = Clone un dépôt. Littéralement. Différent du `checkout` de CVS !
+* **`git clone`** = Clone un dépôt. Littéralement.
 * **`git branch`** = Crée une branche. Instantané, ne coûte rien.
-* **`git checkout`** = Change de branche.
-* **`git merge`** = Fusionne une branche. On "*merge*" toujours vers soi !
+* **`git checkout`** = (R)établis une branche, et déplace `HEAD` dessus.
+* **`git merge`** = Fusionne une branche avec une autre. <span style="color: red;">On "*merge*" toujours vers soi !</span>
 * **`git fetch`** = Récupère les changements d'une `remote`.
 * **`git pull`** = `git fetch` + `git merge`
 * **`git push`** = Pousse les changements sur une `remote`.
