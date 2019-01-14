@@ -158,22 +158,90 @@ Boum.
 
 ### Le coeur de git
 
-* **`git clone`** = Clone un dépôt. Littéralement.
-* **`git branch`** = Crée une branche. Instantané, ne coûte rien.
-* **`git checkout`** = (R)établis une branche, et déplace `HEAD` dessus.
-* **`git merge`** = Fusionne une branche avec une autre. <span style="color: red;">On "*merge*" toujours vers soi !</span>
-* **`git fetch`** = Récupère les changements d'une `remote`.
-* **`git pull`** = `git fetch` + `git merge`
-* **`git push`** = Pousse les changements sur une `remote`.
-* **`git tag`** = Etiquette un commit avec un nom.
+| **`git clone`** | <span style="font-weight: normal;">Clone un dépôt. Littéralement.</span> |
+| - | - |
+| **`git branch`** | Crée une branche. Instantané, ne coûte rien. |
+| **`git checkout`** | (R)établis une branche, et déplace `HEAD` dessus. |
+| **`git merge`** | Fusionne une branche avec une autre. <span style="color: red;">On "*merge*" toujours vers soi !</span> |
+| **`git fetch`** | Récupère les changements d'une `remote`.|
+| **`git pull`** | `git fetch` + `git merge`|
+| **`git push`** | Pousse les changements sur une `remote`.|
+| **`git tag`** | Etiquette un commit avec un nom.|
 
 ---
 
 <span class="menu-title" style="display: none">Le coeur de git: merge</span>
 
-### Démystifier le git merge
+### Démystifier le git merge (0/3)
+
+#### <center> **Assurez-vous d'être dans un état propre avant de fusionner !**</center>
+
+---
+
+<span class="menu-title" style="display: none">Le coeur de git: merge</span>
+
+### Démystifier le git merge (1/3)
+
+`git checkout master`:
+
+![Image](assets/img/git-merge.1.png)
+
+`git merge topic` :
+
+![Image](assets/img/git-merge.2.png)
+
+`git merge` c'est une tentative de **réconciliation** de deux historiques.
+
+(`git merge topic1 topic2 topic3` -> "merge octopus!")
+
+---
+
+<span class="menu-title" style="display: none">Le coeur de git: merge</span>
+
+### Démystifier le git merge (2/3):
+
+Le processus est très simple avec un `git merge`:
+* Absence de conflits -> _merge_ finalisé
+* Présence de conflits -> **décision**:
+  * _Abort_ : `git merge --abort`
+  * _Continue_ en résolvant les conflits: `git merge --continue`
 
 
+---
+
+<span class="menu-title" style="display: none">Le coeur de git: merge</span>
+
+### Démystifier le git merge (3/3):
+
+La fusion de plusieurs historiques est un processus **non trivial** qui fait appel à des algorithmes intégrés dans `git` (comme le `3-way merge algorithm`). C'est pourquoi il existe plusieurs *stratégies** de fusion (`resolve`, `recursive`, `octopus`, `ours`, `subtree`...)
+
+Dans la pratique, il est généralement préférable de laisser git faire son travail et choisir la stratégie de fusion.
+
+---
+
+<span class="menu-title" style="display: none">Le coeur de git: merge</span>
+
+### Démystifier le git rebase (1/2):
+
+`merge` vs `rebase` ?
+
+`git checkout topic`
+
+![Image](assets/img/git-rebase.1.png)
+
+`git rebase master` :
+
+![Image](assets/img/git-rebase.2.png)
+
+---
+
+<span class="menu-title" style="display: none">Le coeur de git: merge</span>
+
+### Démystifier le git rebase (2/2):
+
+2 règles:
+* Préférer le `git pull --rebase` lors d'un `pull` d'une `remote`
+* Préférer un vrai `git merge` lors d'un fusion d'une branche de `feature`.
 
 ---
 
@@ -400,7 +468,7 @@ Exemple avec `simple-webserver.git` local.
 ### Les (principales) plateformes
 
  | @fa[github] GitHub | @fa[gitlab] GitLab | @fa[bitbucket] BitBucket
---- | --- | --- | ----
+--- | --- | --- | ---
 **FOSS** | gratuit | gratuit | gratuit
 **Dépôts privés** | 7 $/mois | gratuit | gratuit
 **CI** | Intégrations Multiples | **"Built-in"** | 50 min gratuites
