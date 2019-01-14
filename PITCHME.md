@@ -162,7 +162,7 @@ Boum.
 | --- | --- |
 | **`branch`** | Crée une branche. Instantané, ne coûte rien. |
 | **`checkout`** | (R)établis une branche, et déplace `HEAD` dessus. |
-| **`merge`** | Fusionne une branche avec une autre. <span style="color: red;">On "*merge*" toujours vers soi !</span> |
+| **`merge`** | Fusionne une branche avec une autre. <br/><span style="color: red;">On "*merge*" toujours vers soi !</span> |
 | **`fetch`** | Récupère les changements d'une `remote`.|
 | **`pull`** | `git fetch` + `git merge`|
 | **`push`** | Pousse les changements sur une `remote`.|
