@@ -158,15 +158,15 @@ Boum.
 
 ### Le coeur de git
 
-| **`git clone`** | <span style="font-weight: normal;">Clone un dépôt. Littéralement.</span> |
-| - | - |
-| **`git branch`** | Crée une branche. Instantané, ne coûte rien. |
-| **`git checkout`** | (R)établis une branche, et déplace `HEAD` dessus. |
-| **`git merge`** | Fusionne une branche avec une autre. <span style="color: red;">On "*merge*" toujours vers soi !</span> |
-| **`git fetch`** | Récupère les changements d'une `remote`.|
-| **`git pull`** | `git fetch` + `git merge`|
-| **`git push`** | Pousse les changements sur une `remote`.|
-| **`git tag`** | Etiquette un commit avec un nom.|
+| **`clone`** | <span style="font-weight: normal;">Clone un dépôt. Littéralement.</span> |
+| --- | --- |
+| **`branch`** | Crée une branche. Instantané, ne coûte rien. |
+| **`checkout`** | (R)établis une branche, et déplace `HEAD` dessus. |
+| **`merge`** | Fusionne une branche avec une autre. <span style="color: red;">On "*merge*" toujours vers soi !</span> |
+| **`fetch`** | Récupère les changements d'une `remote`.|
+| **`pull`** | `git fetch` + `git merge`|
+| **`push`** | Pousse les changements sur une `remote`.|
+| **`tag`** | Etiquette un commit avec un nom.|
 
 ---
 
