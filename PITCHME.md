@@ -170,6 +170,16 @@ Boum.
 
 ---
 
+<span class="menu-title" style="display: none">Le coeur de git: exemple</span>
+
+### Exemple d'une branche
+
+@fa[arrow-right] Dépôt d'exemple sur GitHub
+
+![Image](https://git-scm.com/book/en/v2/images/advance-master.png)
+
+---
+
 <span class="menu-title" style="display: none">Le coeur de git: merge</span>
 
 ### Démystifier le git merge (0/3)
@@ -190,7 +200,7 @@ Boum.
 
 ![Image](assets/img/git-merge.2.png)
 
-`git merge` c'est une tentative de **réconciliation** de deux historiques.
+c'est une tentative de **réconciliation** de deux historiques.
 
 (`git merge topic1 topic2 topic3` -> "merge octopus!")
 
@@ -247,13 +257,13 @@ Dans la pratique, il est généralement préférable de laisser git faire son tr
 
 <span class="menu-title" style="display: none">Le coeur de git: push</span>
 
-### Exemple d'un git push
+### Le git push
 
 La syntaxe complète est toujours la même:
 
 `git push <where-to-push> <source-ref>:<destination-ref>`
 
-Un exemple complet (remote: `origin`, `push` de `master` local vers le `master` distant):
+Un exemple complet (`push` du `master` local vers le distant):
 
 `git push origin refs/heads/master:refs/heads/master`
 
@@ -275,7 +285,7 @@ Ou la version raccourcie:
 
 `git push origin release-1.0:release-1.0`
 
-Et donc pour supprimer un tag, il suffit de mettre "rien" dans la source:
+Et donc pour supprimer un tag, il suffit de "rien" dans la source:
 
 `git push origin :release-1.0`
 
@@ -283,16 +293,16 @@ Voir les `refs` ?
 
 `git show-ref (--head)`
 
-
 ---
 
-<span class="menu-title" style="display: none">Le coeur de git: exemple</span>
+<span class="menu-title" style="display: none">2 types de tags</span>
 
-### Exemple d'une branche
+## Deux types de tags:
 
-@fa[arrow-right] Dépôt d'exemple sur GitHub
+* **légers**: (`git tag`) = un nom sur un objet (généralement, un commit).
+* **annotés**: (`git tag -a`) = ajout d'un *objet tag* dans les `refs` (avec date de création, le nom du taggeur, l'email, le message etc...)
 
-![Image](https://git-scm.com/book/en/v2/images/advance-master.png)
+**Attention:** Quand on fait `git tag -m <message>` le `-a` est implicite !
 
 ---
 
