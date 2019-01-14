@@ -162,12 +162,10 @@ Boum.
 * **`git branch`** = Crée une branche. Instantané, ne coûte rien.
 * **`git checkout`** = Change de branche.
 * **`git merge`** = Fusionne une branche. On "*merge*" toujours vers soi !
-* **`git fetch`** = Récupère les changements présents sur une `remote`.
-* **`git pull`** = Récupère les changements présents sur une `remote` et les fusionne (= `git fetch` + `git merge`).
+* **`git fetch`** = Récupère les changements d'une `remote`.
+* **`git pull`** = `git fetch` + `git merge`
 * **`git push`** = Pousse les changements sur une `remote`.
 * **`git tag`** = Etiquette un commit avec un nom.
-
-(exemples au terminal...)
 
 ---
 
@@ -195,7 +193,13 @@ Mais avec les chemins par défaut, ça peut s'abbréger:
 
 `git push origin master:master`
 
-Les tags c'est pareil:
+---
+
+<span class="menu-title" style="display: none">Le coeur de git: push</span>
+
+### git push pour les tags
+
+Les tags fonctionnent comme les commits:
 
 `git push origin refs/tags/release-1.0:refs/tags/release-1.0`
 
